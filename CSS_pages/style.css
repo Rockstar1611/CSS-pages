@@ -30,5 +30,11 @@ body
 #d1,#d2,#d3
 {
     color: white;
-    
+    font-style: italic; 
+}
+h3
+{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
 }
