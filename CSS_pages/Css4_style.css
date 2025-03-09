@@ -1,0 +1,40 @@
+.first
+{
+    font-family:sans-serif;
+    color: red;
+}
+.last
+{
+    font-family:fantasy;
+    color:blue;
+}
+ul>li
+{
+    font-size: 1cm;
+    font-style: italic;
+    color: deeppink;
+}
+ol>li
+{
+    font-size: 0.7cm;
+    font-style:oblique;
+    color:olivedrab
+}
+input[type="text"]
+{
+    border:2px solid red;
+    height: 1cm;
+    width: 10cm;
+}
+input[type="email"]
+{
+    border: 2px dashed green;
+    height: 1cm;
+    width: 10cm;
+}
+input[type="number"]
+{
+    border: 2px dotted orchid;
+    height: 1cm;
+    width: 10cm;
+}
