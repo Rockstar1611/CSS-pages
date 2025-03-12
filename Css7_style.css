@@ -1,0 +1,46 @@
+.Outer
+{
+    border: 5px solid yellowgreen;
+    height: 300px;width: 300px;
+    box-shadow: 5px 5px 10px red;
+}
+.Inner
+{
+    border: 5px solid blue;
+    height: 100px;width:100px ;
+    padding: 10px 20px;
+    margin: 30px 20px;
+}
+p{  
+    text-align: center;
+    border: 5px solid red;
+    width: 200px;
+    box-shadow: 3px 3px 9px red;
+}
+.div1{
+    border: 3px solid;
+    height: 150px;width: 150px;
+    border-radius: 80px;
+    background-color: rgb(20, 180, 180);
+}
+.div11{
+    border: 3px solid;
+    height: 30px;width: 30px;
+    margin: 20px 20px 20px -40px;
+    border-radius: 80px;
+    background-color: white;
+}
+.div12{
+    border: 3px solid;
+    height: 30px;width: 30px;
+    margin: -60px -50px 30px -10px;
+    border-radius: 80px;
+    background-color: white;
+}
+.div2{
+    border: 3px solid;
+    height: 250px;width: 250px;
+    border-radius: 120px;
+    background-color: greenyellow;
+    margin: 100px -60px 100px -60px;
+}

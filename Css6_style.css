@@ -1,0 +1,53 @@
+p
+{
+    border: 2px solid red;
+    width: 200px;
+
+}
+h1
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    height: 200px;width: 200px;
+}
+h2
+{
+    border-top-width: 5px;
+    border-top-color: crimson;
+    border-top-style: solid;
+    /*
+    border-top:5px solid crimson;*/
+    border-left: 10px dashed green;
+    border-right: 5px dotted blue;
+    border-bottom: 10px double violet;
+    height:200px; width: 200px;
+}
+h3
+{
+    height: 250px;width: 250px;
+    border:5px solid green;
+    border-image-source: url("img2.jpg");
+    border-image-slice: 50 20;
+    border-width: 40px;
+    background-image: url("img3.jpg");
+    background-size: cover;
+}
+h4
+{
+    border: 5px solid red;
+    height: 200px;width: 200px;
+    border-radius: 40px 20px 60px 100px;
+}
+h5
+{
+    border: 5px solid red;
+    height: 200px;width: 200px;
+    border-radius: 40px 0px;
+}
+h6
+{
+    border: 5px solid red;
+    height: 200px;width: 200px;
+    border-radius: 40px 100px 0px ;
+}
