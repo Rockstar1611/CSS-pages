@@ -1,0 +1,40 @@
+h3
+{
+    background-color: aqua;
+    height:50px;
+    width:200px;
+    text-align: center;
+}
+p
+{
+    background-color:orange;
+    height:50px;
+    width:200px;
+    text-align: center;
+}
+#div1
+{
+    background-image: url("img3.jpg");
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 0.5cm;
+    font-style: initial;
+}
+
+body
+{
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img
+{
+    height: 500px;
+    width: 700px;
+    box-shadow:5px 5px 9px blue;
+    opacity: 0.7;
+}
