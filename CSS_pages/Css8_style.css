@@ -1,0 +1,57 @@
+header{
+    border: 2px solid red;
+    padding-top: 15px;
+    height:80px;
+    width:100%;
+    text-align: center;
+    background-color: bisque;
+}
+nav{
+    border: 2px solid red;
+    padding-top: 15px;
+    height:80px;width:100%;
+    text-align: center;
+    margin-top: 1px;
+    background-color: aqua;
+}
+section{
+    border: 2px solid red;
+    padding-top: 45px;
+    height: 160px;width:50%;
+    text-align: center;
+    margin-top: 1px;
+    background-color: lightcoral;
+}
+article{
+    border: 2px solid red;
+    padding-top: 45px;
+    height: 160px;width:50%;
+    text-align: center;
+    margin-top: 1px;
+    background-color: darkgray;
+}
+aside{
+    border: 2px solid red;
+    padding-top: 114px;
+    height: 301px;width:50%;
+    text-align: center;
+    margin-top: -33.1%;
+    margin-left: 50%;
+    background-color: lightpink;
+}
+footer{
+    border: 2px solid red;
+    padding-top: 0px;
+    height: 80px;width:100%;
+    text-align: center;
+    margin-top: 2px;
+    background-color: aquamarine;
+}
+.one{
+    color:brown;
+    text-shadow: 2px 2px 2px burlywood;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px blueviolet;
+}

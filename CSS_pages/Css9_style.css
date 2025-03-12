@@ -1,0 +1,75 @@
+a:hover{
+    border: 2px dotted red;
+    background-color: rgb(222, 137, 25);
+    color: white;
+    
+    text-decoration: none;
+}
+a:link{
+    background-color: aqua;
+    color: white;
+    border: 2px dotted;
+}
+a{
+    text-align: center;
+    font-size: 1cm;
+    font-family:monospace;
+    text-shadow: 2px 2px 5px green;
+}
+.in:hover{
+    background-color: aqua;
+}
+.in{
+    height: 30px;width:100% ;
+    font-family: monospace;
+}
+input:not([type='number'])
+{
+    background-color:cadetblue;
+}
+input:in-range{
+    background-color: yellow;
+    border:2px solid red;
+    height:20px ;width:100px ;
+}
+li:first-child{
+    background-color: hotpink;
+}
+li:last-child{
+    background-color: cyan;
+}
+li:nth-child(2){
+}
+li:nth-child(3){
+    background-image: url("img2.jpg");
+    background-size: cover;
+}
+input:invalid{
+    border: 5px solid red;
+    background-color: antiquewhite;
+}
+input:valid{
+    border: 5px solid greenyellow;
+    background-color: antiquewhite;
+}
+p::first-letter{
+    background-color: greenyellow;
+    color: crimson;
+    font-size: 1cm;
+}
+p::first-line{
+    background-color: aqua;
+    color: dodgerblue;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px green;
+}
+h2::before{
+    content: 'Main: ';
+}
+h2::after{
+    content: -This is the Heading;
+}
+::selection{
+    background-color: deeppink;
+    color: white;
+}
